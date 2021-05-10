@@ -1,0 +1,32 @@
+gsteps : 1
+output_size : 48
+dataset: stl10
+c_dim : 3
+z_dim : 128
+df_dim : 64
+dsteps: 1
+gf_dim : 64
+architecture : "sngan"
+model : "gan"
+batch_norm : True
+with_sn : True
+dof_dim : 16
+pico: 1
+clip_grad: False
+learning_rate: 0.0001
+ker_lam: 0.
+ker_lam_2: 0.5
+k_ratio: 0.01
+kernel: 'rbf'
+beta1: 0.5
+beta2: 0.999
+MMD_sdlr_num_test: 1
+MMD_sdlr_past_sample: 100
+MMD_sdlr_freq: 1
+max_iteration: 200001
+with_fp: 0.01
+lam_1: 1. 
+lam_2: 0.5 
+lam_3: 1.
+lan_steps: 15
+lan_step_lr: 0.5

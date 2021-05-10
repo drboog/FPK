@@ -1,0 +1,31 @@
+gsteps : 1
+dsteps: 1
+output_size : 48
+dataset: stl10
+c_dim : 3
+z_dim : 128
+df_dim : 64
+gf_dim : 64
+architecture : "stlresnet"
+model : "fpkernel"
+batch_norm : True
+with_sn : True
+dof_dim : 16
+pico: 2
+clip_grad: False
+learning_rate: 0.0002
+ker_lam: 0.1
+k_ratio: 0.5
+kernel: 'rbf'
+beta1: 0.5
+beta2: 0.999
+MMD_sdlr_num_test: 1
+MMD_sdlr_past_sample: 2000
+MMD_sdlr_freq: 1
+lam_1: 2.
+lam_2: 1.
+lam_3: 1.
+gamma_1: 0.00
+max_iteration: 300001
+lan_steps: 40
+lan_step_lr: 0.025
