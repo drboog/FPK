@@ -11,7 +11,9 @@ scipy
 
 ### Dataset:
 cifar dataset: http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+
 stl dataset: run download_stl.py, then run build_records.py to build tf_record file
+
 Please remember to revise the dataset path in main.py
 
 ### Example:
