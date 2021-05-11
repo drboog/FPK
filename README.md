@@ -1,6 +1,6 @@
 # FPK
 
-Code for **Learning High-Dimensional Distributions with Latent Neural Fokker-Planck Kernels (https://arxiv.org/abs/2105.04538)**.
+Code for **[Learning High-Dimensional Distributions with Latent Neural Fokker-Planck Kernels](https://arxiv.org/abs/2105.04538)**.
 
 
 --------------------------
